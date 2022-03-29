@@ -1,0 +1,179 @@
+title: "Ali Patente"
+welcome: "अली के आधिकारिक ऐप में आपका स्वागत है"
+terms_conditions: "साइन इन पर क्लिक करके, आप हमारी शर्तों से सहमत हैं।"
+guest_login: "अतिथि के रूप में लॉगिन करें"
+register_title: "पंजीकरण आवश्यक"
+register_subtitle: "इस सुविधा का उपयोग करने के लिए आपको पंजीकृत होना चाहिए"
+
+auth:
+  title: "सुरक्षा कोड सत्यापित करें"
+  description: "प्राप्त कोड दर्ज करें"
+  error: "गलत कोड"
+  message: "Hello%20Ali%20I%20am%20{name}%20I%20need%20the%20security%20code"
+  get_code_1: "कोड नहीं है?"
+  get_code_2: "अली को लिखें"
+  completed: "सक्रियण पूरा!"
+  button: "सत्यापित करें"
+
+home:
+  progress:
+    title: "आपकी प्रगति"
+    time: "Average time"
+    errors: "मध्यम त्रुटियां"
+    passed: "पार हो गई"
+    done: "प्रदर्शन किया"
+
+  exam:
+    title: "परीक्षा का अनुकरण"
+    subtitle: "प्रश्नोत्तरी शुरू करें"
+    start: "शुरू करें"
+
+  manual:
+    title: "सिद्धांत पुस्तक"
+    subtitle: "परीक्षा के लिए अध्ययन करें"
+
+  lessons:
+    title: "वीडियो व्याख्यान"
+    subtitle: "अली की रिकॉर्डेड कक्षाएं"
+
+  faq:
+    title: "Question/Answer"
+    subtitle: "अधिकतर पूछे जाने वाले सवाल"
+
+  live:
+    title: "लाइव क्लास"
+    subtitle: "अली की लाइव कक्षाओं का पालन करें"
+
+  timetable:
+    title: "व्याख्यान समय सारिणी"
+    subtitle: "कक्षा अनुसूची की जाँच करें"
+
+  token:
+    title: "मुख्य प्रबंधन"
+    subtitle: "छात्रों की चाबियों की जाँच करें"
+  
+  category:
+      title: "लाइसेंस श्रेणी का चयन करें"
+      hint: "वर्ग"
+      AM: "मोटरसाइकिलें"
+      B: "कार और ए.टी.वी"
+      C: "बड़े माल का वाहन"
+      CQC: "माल"
+      european: "यूरोपीय श्रेणियाँ"
+      course: "ड्राइविंग लाइसेंस कोर्स"
+      license: "लाइसेंस"
+      admin: "व्यवस्थापक"
+
+key:
+  remove:
+    title: "कुंजी निकालें"
+    subtitle: "क्या आप इस कुंजी को हटाना चाहते हैं?"
+  share:
+    text: "यहाँ आपकी सुरक्षा कुंजी है: {key}"
+  created: "बनाया था"
+  owner: "मालिक "
+  activated: "सक्रिय "
+  title: "सुरक्षा कुंजी"
+  new_key: "एक कुंजी बनाएँ"
+  never: "कभी नहीँ"
+  expiry: "समाप्ति"
+  months: "महीने"
+  eternal: "सनातन"
+  restricted: "Restricted"
+  add_videos: "Add videos to user"
+
+lessons:
+  remove:
+    title: "प्लेलिस्ट हटाना"
+    subtitle: "क्या आप इस प्लेलिस्ट को निकालना चाहते हैं?"
+  add_playlist:
+    text: "एक अध्याय जोड़ें"
+    title: "शीर्षक"
+    description: "संक्षिप्त वर्णन"
+  videos:
+    add:
+      title: "एक वीडियो जोड़ें"
+      field: "वीडियो यू.आर.एल."
+    remove:
+      title: "वीडियो हटाने"
+      subtitle: "क्या आप इस वीडियो को निकालना चाहते हैं?"
+    lecture: "पाठ"
+    not_available: "Video not available"
+  empty: "कोई अध्याय अपलोड नहीं किया गया"
+  ios_message: "यदि आप हां पर टैप करते हैं तो आप ऐप से लॉग आउट हो जाएंगे"
+  ios_not_available: "चैट का उपयोग करने के लिए आपको Google में लॉगिन करना होगा"
+
+quiz:
+  quit:
+    title: "क्विज़ छोड़ें"
+    subtitle: "क्या आप क्विज़ छोड़ना चाहते हैं?"
+  end:
+    title: "क्विज़ समाप्त करें"
+    subtitle: "क्या आप क्विज़ समाप्त करना चाहते हैं?"
+  answer: "आपने उत्तर दिया"
+  right: "सही"
+  wrong: "गलत"
+  promoted: "प्रचारित"
+  rejected: "अस्वीकृत"
+  errors: "त्रुटियाँ"
+  white: "नहीं दिया"
+  time: "समय बिताया"
+  translate: "translate..."
+  speed: "स्पीड"
+
+live:
+  title: "लाइव क्लास"
+  close: "पाठ समाप्त करें"
+  start: "लाइव शुरू करो"
+  field: "लिंक लाइव"
+  message_field: "कुछ लिखो..."
+  not_live: "लाइव सक्रिय नहीं है"
+  message_sent: "चैट करने के लिए संदेश भेजा गया"
+
+timetable:
+  hour: "घंटा"
+  chapter: "अध्याय"
+  page: "पृष्ठ"
+  value: "मूल्य"
+
+loading: "लोड हो रहा है..."
+loading_messages: "संदेश लोड हो रहे हैं..."
+
+label:
+  main: "नमस्ते {user}!"
+
+faq:
+  title: "सबसे अधिक पूछे जाने वाले प्रश्नों में से अपने प्रश्न का उत्तर खोजें"
+  title1: "यह एप्लिकेशन किस लिए है?"
+  add_faq:
+    text: "एक एफ ए क्यू जोड़ें"
+    title: "सवाल"
+    description: "उत्तर"
+  stuck: "क्या आप अभी भी फंस गए हैं? / मदद एक मेल दूर है"
+  message: "एक संदेश भेजें"
+  body: "Hello Ali I am {name} I have a question:"
+  remove:
+    title: "FAQ removal"
+    subtitle: "Do you want to remove this faq?"
+
+button:
+  label:
+    language: "भाषा बदलो"
+    logout: "लॉग आउट"
+    login: "गूगल के साथ साइन इन करें"
+    cancel: "रद्द करना"
+    remove: "हटाना"
+    add: "जोड़ना"
+    quit: "छोड़ना"
+    end: "समाप्त"
+    a_true: "सच"
+    a_false: "असत्य"
+    a_notGiven: "कुछ भी नहीं"
+    next: "आगे"
+    confirm: "पुष्टि करें"
+    start_live: "लाइव स्ट्रीम शुरू करें"
+    select: "चुनें"
+    not_now: "शायद बाद में"
+    review: "समीक्षा"
+    back: "वापस"
+    save: "Save"

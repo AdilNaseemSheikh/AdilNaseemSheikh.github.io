@@ -1,0 +1,179 @@
+title: "Ali Patente"
+welcome: "Benvenuto nell'app ufficiale di Ali Patente"
+terms_conditions: "Facendo clic su Sign in, accetti i nostri Termini."
+guest_login: "Accedi come ospite"
+register_title: "Registrazione necessaria"
+register_subtitle: "Devi essere registrato per accedere a questa funzione"
+
+auth:
+  title: "Verifica del codice di sicurezza"
+  description: "Inserisci il codice ricevuto da "
+  error: "Codice errato"
+  message: "Ciao%20Ali%20sono%20{name}%20avrei%20bisogno%20del%20codice"
+  get_code_1: "Non hai un codice? "
+  get_code_2: " Scrivi ad Ali"
+  completed: "Attivazione completata!"
+  button: "VERIFICA"
+
+home:
+  progress:
+    title: "I tuoi progressi"
+    time: "Tempo medio"
+    errors: "Media errori"
+    passed: "Superati"
+    done: "Svolti"
+
+  exam:
+    title: "Test ministeriale"
+    subtitle: "Allenati per l'esame"
+    start: "Avvia"
+
+  manual:
+    title: "Manuale"
+    subtitle: "Studia con il manuale"
+
+  lessons:
+    title: "Video Lezioni"
+    subtitle: "Lezioni registrare di Ali"
+
+  faq:
+    title: "Question/Answer"
+    subtitle: "Domande più frequenti"
+
+  live:
+    title: "Dirette"
+    subtitle: "Segui le dirette di Ali"
+
+  timetable:
+    title: "Orario lezioni"
+    subtitle: "Controlla l'orario delle lezioni"
+
+  token:
+    title: "Gestione chiavi"
+    subtitle: "Controlla le chiavi degli studenti"
+
+  category:
+    title: "Seleziona la categoria della patente"
+    hint: "Categoria"
+    AM: "Motocicli"
+    B: "Auto"
+    C: "Camion"
+    CQC: "Merci"
+    european: "Categorie Europee"
+    course: "Corso di patente"
+    license: "Patente"
+    admin: "Amministratore"
+
+key:
+  remove:
+    title: "Rimuovere chiave"
+    subtitle: "Vuoi rimuovere questa chiave?"
+  share:
+    text: "Ecco la tua chiave di sicurezza: {key}"
+  created: "Creata il "
+  owner: "Proprietario "
+  activated: "Attivata "
+  title: "Chiavi di sicurezza"
+  new_key: "Crea una chiave"
+  never: "Mai"
+  expiry: "Scadenza"
+  months: "mesi"
+  eternal: "Eterna"
+  restricted: "Ristretta"
+  add_videos: "Aggiungi video"
+
+lessons:
+  remove:
+    title: "Rimozione playlist"
+    subtitle: "Vuoi rimuovere questa playlist?"
+  add_playlist:
+    text: "Aggiungi un capitolo"
+    title: "Titolo"
+    description: "Descrizione breve"
+  videos:
+    add:
+      title: "Aggiungi un video"
+      field: "Video URL"
+    remove:
+      title: "Rimozione video"
+      subtitle: "Vuoi rimuovere questo video?"
+    lecture: "Lezione"
+    not_available: "Video non disponibile"
+  empty: "Nessun capitolo caricato"
+  ios_message: "Se scegli Si uscirai del tuo account attuale"
+  ios_not_available: "Accedi con Google per scrivere nella chat"
+
+quiz:
+  quit:
+    title: "Abbandona quiz"
+    subtitle: "Vuoi abbandonare il quiz?"
+  end:
+    title: "Terminare quiz"
+    subtitle: "Vuoi terminare il quiz?"
+  answer: "Hai risposto "
+  right: "Corretto"
+  wrong: "Errato"
+  promoted: "Promosso"
+  rejected: "Bocciato"
+  errors: "Errori"
+  white: "Bianche"
+  time: "Tempo impiegato"
+  translate: "traduco..."
+  speed: "Velocità"
+
+live:
+  title: "Classe in diretta"
+  close: "Termina la lezione"
+  start: "Avvia diretta"
+  field: "Link diretta"
+  message_field: "Scrivi qualcosa..."
+  not_live: "Live non attiva"
+  message_sent: "Messaggio inviato alla chat"
+
+timetable:
+  hour: "Ora"
+  chapter: "Capitolo"
+  page: "Pagina"
+  value: "Valore"
+
+loading: "Caricamento..."
+loading_messages: "Caricamento dei messaggi..."
+
+label:
+  main: "Ciao {user}!"
+
+faq:
+  title: "Trova la risposta alla tua domanda tra le domande più frequenti"
+  title1: "A cosa serve quest'App?"
+  add_faq:
+    text: "Aggiungi una faq"
+    title: "Domanda"
+    description: "Risposta"
+  stuck: "Ancora bloccato? L'aiuto è un messaggio di distanza"
+  message: "Manda un messaggio"
+  body: "Ciao Ali sono {name} ho una domanda:"
+  remove:
+    title: "Rimozione FAQ"
+    subtitle: "Vuoi rimuovere questa faq?"
+
+button:
+  label:
+    language: "Cambia lingua"
+    logout: "Esci"
+    login: "Accedi con Google"
+    cancel: "Annulla"
+    remove: "Rimuovi"
+    add: "Aggiungi"
+    quit: "Abbandona"
+    end: "Termina"
+    a_true: "Vero"
+    a_false: "Falso"
+    a_notGiven: "Nulla"
+    next: "Continua"
+    confirm: "Conferma"
+    start_live: "Avvia diretta"
+    select: "Seleziona"
+    not_now: "Più tardi"
+    review: "Rivedi"
+    back: "Indietro"
+    save: "Salva"

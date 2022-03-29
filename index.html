@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="ali_patente_main">
+
+    <meta name="google-signin-client_id"
+          content="592741627721-4m52dnuaensfj8u2cqb3iijmlnr08t5n.apps.googleusercontent.com">
+    <meta name="google-site-verification" content="g3hot9RVL3LWijecM2J-F-OOSxGE7Chne7lGt9t2_Xc"/>
+
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <title>ali_patente_main</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script>
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDROViVM7xDdXsxjHHwo2-NYeWQV23K54Q",
+  authDomain: "ali-patente-e2bbc.firebaseapp.com",
+  databaseURL: "https://ali-patente-e2bbc.firebaseio.com",
+  projectId: "ali-patente-e2bbc",
+  storageBucket: "ali-patente-e2bbc.appspot.com",
+  messagingSenderId: "592741627721",
+  appId: "1:592741627721:web:e86a3dabf0ebd37fd98c98",
+  measurementId: "G-1JF7N5YZNG"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+</script>
+<script>
+    var serviceWorkerVersion = '3557284258';
+    var scriptLoaded = false;
+    function loadMainDartJs() {
+      if (scriptLoaded) {
+        return;
+      }
+      scriptLoaded = true;
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
+      document.body.append(scriptTag);
+    }
+
+    if ('serviceWorker' in navigator) {
+
+      window.addEventListener('load', function () {
+
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        navigator.serviceWorker.register(serviceWorkerUrl)
+          .then((reg) => {
+            function waitForActivation(serviceWorker) {
+              serviceWorker.addEventListener('statechange', () => {
+                if (serviceWorker.state == 'activated') {
+                  console.log('Installed new service worker.');
+                  loadMainDartJs();
+                }
+              });
+            }
+            if (!reg.active && (reg.installing || reg.waiting)) {
+
+              waitForActivation(reg.installing || reg.waiting);
+            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+
+              console.log('New service worker available.');
+              reg.update();
+              waitForActivation(reg.installing);
+            } else {
+
+              console.log('Loading app from service worker.');
+              loadMainDartJs();
+            }
+          });
+
+
+        setTimeout(() => {
+          if (!scriptLoaded) {
+            console.warn(
+              'Failed to load app from service worker. Falling back to plain <script> tag.',
+            );
+            loadMainDartJs();
+          }
+        }, 4000);
+      });
+    } else {
+
+      loadMainDartJs();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+title: "Ali Patente"
+welcome: "Welcome to Ali's Patente Offical App"
+terms_conditions: "By clicking Sign in, you agree to our Terms."
+guest_login: "Login as guest"
+register_title: "Registration required"
+register_subtitle: "You must be registered to access this feature"
+
+auth:
+  title: "Verify the security code"
+  description: "Enter the code received from "
+  error: "Wrong code"
+  message: "Hello%20Ali%20I%20am%20{name}%20I%20need%20the%20security%20code"
+  get_code_1: "Don't have a code? "
+  get_code_2: " Write to Ali"
+  completed: "Activation completed!"
+  button: "VERIFY"
+
+home:
+  progress:
+    title: "Your progress"
+    time: "Average time"
+    errors: "Average errors"
+    passed: "Exceeded"
+    done: "Performed"
+
+  exam:
+    title: "Exam simulation"
+    subtitle: "Start the quiz"
+    start: "Start"
+
+  manual:
+    title: "Theory book"
+    subtitle: "Study for the exam"
+
+  lessons:
+    title: "Video Lectures"
+    subtitle: "Ali's recorded classes"
+
+  faq:
+    title: "Question/Answer"
+    subtitle: "Frequently asked questions"
+
+  live:
+    title: "Live Class"
+    subtitle: "Follow Ali's LIVE classes"
+
+  timetable:
+    title: "Lectures timetable"
+    subtitle: "Check the class schedule"
+
+  token:
+    title: "Key management"
+    subtitle: "Check the students keys"
+  
+  category:
+      title: "Select the license category"
+      hint: "Category"
+      AM: "Motorcycles"
+      B: "Cars and ATVs"
+      C: "Large goods vehicle"
+      CQC: "Goods"
+      european: "European Categories"
+      course: "Driving license course"
+      license: "License"
+      admin: "Admin"
+
+key:
+  remove:
+    title: "Remove key"
+    subtitle: "Do you want to remove this key?"
+  share:
+    text: "Here is your security key: {key}"
+  created: "Created on "
+  owner: "Owner "
+  activated: "Activated "
+  title: "Security keys"
+  new_key: "Create a key"
+  never: "Never"
+  expiry: "Expiry"
+  months: "months"
+  eternal: "Eternal"
+  restricted: "Restricted"
+  add_videos: "Add videos to user"
+
+lessons:
+  remove:
+    title: "Playlist removal"
+    subtitle: "Do you want to remove this playlist?"
+  add_playlist:
+    text: "Add a chapter"
+    title: "Title"
+    description: "Short description"
+  videos:
+    add:
+      title: "Add a video"
+      field: "Video URL"
+    remove:
+      title: "Video removal"
+      subtitle: "Do you want to remove this video?"
+    lecture: "Lesson"
+    not_available: "Video not available"
+  empty: "No chapter uploaded"
+  ios_message: "If you choose Yes you will log out of your current account"
+  ios_not_available: "Log in with Google to write in the chat"
+
+quiz:
+  quit:
+    title: "Leave quiz"
+    subtitle: "Do you want to leave the quiz?"
+  end:
+    title: "Finish quiz"
+    subtitle: "Do you want to finish the quiz?"
+  answer: "You answered "
+  right: "Right"
+  wrong: "Wrong"
+  promoted: "Promoted"
+  rejected: "Rejected"
+  errors: "Errors"
+  white: "Not given"
+  time: "The time spent on"
+  translate: "translate..."
+  speed: "Speed"
+
+live:
+  title: "Live class"
+  close: "Finish the lesson"
+  start: "Start live"
+  field: "Link live"
+  message_field: "Write something..."
+  not_live: "Live is not active"
+  message_sent: "Message sent to chat"
+
+timetable:
+  hour: "Hour"
+  chapter: "Chapter"
+  page: "Page"
+  value: "Value"
+
+loading: "Loading..."
+loading_messages: "Loading messages..."
+
+label:
+  main: "Hello {user}!"
+
+faq:
+  title: "Find the answer to your question among the most frequently asked questions"
+  title1: "What is this App for?"
+  add_faq:
+    text: "Add a faq"
+    title: "Question"
+    description: "Answer"
+  stuck: "Still stuck? Help is a mail away"
+  message: "Send a message"
+  body: "Hello Ali I am {name} I have a question:"
+  remove:
+    title: "FAQ removal"
+    subtitle: "Do you want to remove this faq?"
+
+button:
+  label:
+    language: "Change language"
+    logout: "Logout"
+    login: "Sign in with Google"
+    cancel: "Cancel"
+    remove: "Remove"
+    add: "Add"
+    quit: "Quit"
+    end: "End"
+    a_true: "True"
+    a_false: "False"
+    a_notGiven: "Nothing"
+    next: "Next"
+    confirm: "Confirm"
+    start_live: "Start live stream"
+    select: "Select"
+    not_now: "Maybe later"
+    review: "Review"
+    back: "Back"
+    save: "Save"

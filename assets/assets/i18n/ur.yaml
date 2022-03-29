@@ -1,0 +1,176 @@
+title: "Ali Patente"
+welcome: " میں خوش آمدید app کی دفتری  Ali's Patente"
+terms_conditions: "کلک کرنے پر آپ ہماری شرائط سے متفق ہیں"
+guest_login: "مہمان کی حیثیت سےلاگ ان کریں‌‏‎"
+register_title: "اندراج کریں"
+register_subtitle: "خصوصیات کی رسائی کے لیے آپ کا اندراج ضروری ہے"
+
+auth:
+  title: "کوڈ کی تصدیق کروائیں"
+  description: "حاصل کردہ کوڈ داخل کریں"
+  error: "غلط کوڈ"
+  message: "Hello%20Ali%20I%20am%20{name}%20I%20need%20the%20security%20code"
+  get_code_1: "کوڈ حاصل نہیں ہوا؟ "
+  get_code_2: علی کو لکھیں""
+  completed: " مکمل activation"
+  button: "  تصدیق"
+
+home:
+  progress:
+    title: "آپ کی کارکردگی"
+    time: "اوسط وقت"
+    errors: "أوسط نقائض"
+    passed: "تجاوز کرگی"
+    done: "عمل ہوچکا"
+
+  exam:
+    title: "نقلی امتحان"
+    subtitle: "کوئز شروع کریں"
+    start: "شروع"
+
+  manual:
+    title: "نظریہ کتاب"
+    subtitle: "امتحان کے لیے مطالعه"
+
+  lessons:
+    title: "وڈیو لکچرز "
+    subtitle: "علی کی محفوظ جماعتیں"
+
+  faq:
+    title: "Question/Answer"
+    subtitle: " کثرت سے پوچھے گئے سوالات"
+  
+  live:
+    title: "براہ راست جماعتیں"
+    subtitle: "علی کی براہ راست  جماعتوں میں شامل ہوں"
+
+  timetable:
+    title: "درس کا ٹائم ٹیبل"
+    subtitle: "جما عت کا جدول جانچ کریں"
+
+
+  token:
+    title: " انتظاميہKey"
+    subtitle: "جانچ کریں keys طلب علموں کی"
+  
+  category:
+      title: "  کی قسم کا انتخاب کر يں License"
+      hint: "قسم"
+      AM: "موٹر سائیکل"
+      B: " ATVsگاڑیاں اور"
+      C: "سامان سے لدی بڑی گاڑی"
+      CQC: "سامان"
+      european: "یورپی اقسام"
+      course: "گاڑی سیکھنے کا کورس"
+      license: "License"
+      admin: "منتظم"
+
+key:
+  remove:
+    title: "ہٹادیں key"
+    subtitle: " ہٹانا چاہتے ہیں؟keyکیا آپ یہ "
+  share:
+    text: "ہے key یہ آ پ کی حفاظتی : {key}"
+  created: "تخلیق کی گئی "
+  owner: "مالک"
+  activated: "Activated"
+  title: "keys حفاظتی "
+  new_key: " تخلیق کریں key"
+  never: "کبھی نہیں"
+  expiry: "آخری مدت"
+  months: "مہینے"
+  eternal: "دائمی"
+
+lessons:
+  remove:
+    title: " ہٹائیں playlist"
+    subtitle: "کو ہٹانا چاہتے ہیں؟ playlist کیا آپ اس "
+  add_playlist:
+    text: "سبق شامل کریں"
+    title: "عنوان"
+    description: "مختصر بیان"
+  videos:
+    add:
+      title: "ویڈیو شامل کریں"
+      field: "Video URL"
+    remove:
+      title: " ہٹائیں video"
+      subtitle: "کیا آپ یہ ویڈیو ہٹانا چاہتے ہیں؟"
+    lecture: "سبق"
+  empty: "نہیں ہوا upload سبق "
+  ios_message: "اگر آپ ہاں دبائیں گے تو ایپ سے لاگ آؤٹ ہو جائیں گے"
+  ios_not_available: "چیٹ کو استعمال کرنے کے لیےگوگل پے لاگ ان کریں"
+
+
+
+quiz:
+  quit:
+    title: "چھوڑدیں quiz"
+    subtitle: "چھوڑنا چاہتے ہیں quiz کیا آپ یہ "
+  end:
+    title: "ختم quiz"
+    subtitle: "ختم کرنا چاہتے ہیں؟ quizکیا آپ یہ "
+  answer: "آپ نے جواب دیا"
+  right: "صحیح ہے"
+  wrong: "غط ہے"
+  promoted: "پاس"
+  rejected: "رد کردیا گیا"
+  errors: "نقائض"
+  white: "نہیں دیئے گئے"
+  time: "لیا گیا وقت"
+  translate: "ترجمہ"
+  speed: "رفتار"
+
+live:
+  title: "براہ راست جماعت"
+  close: "سبق ختم کریں"
+  start: "براہ راست شروع کریں"
+  field: "link براہ راست"
+  message_field: "کچھ لکھیں"
+  not_live: "براہ راست دستیاب نہیں ہے"
+  message_sent: "پیغام ،چیٹ پر بهیج دیں"
+
+timetable:
+  hour: "گھنٹہ"
+  chapter: "سبق"
+  page: "صفحہ"
+  value: "رقم"
+
+loading: "... جاری ہے"
+loading_messages: "...پیغامات جاری ہیں"
+
+label:
+  main: "Hello {user}!"
+
+faq:
+  title: "اپنے سوالات کے جوابات ڈھونڈیں، جو کثرت سے پوچھے گئے ہیں"
+  title1: " کا کیا مقصد ہے؟ app اس"
+  add_faq:
+    text: " شامل کریں faq"
+    title: "سوال"
+    description: "جواب"
+  stuck: "کرکے مدد حاصل کریں mail کسی مشکل کی صورت میں"
+  message: "پیغام بھیجیں"
+  body: " میں {نام} ہوں اورمیرا سوال  ہے:"
+
+
+button:
+  label:
+    language: "زبان تبدیل کریں"
+    logout: "Logout"
+    login: " کریں sign inگوگل سے "
+    cancel: "منسوخ کریں"
+    remove: "ہٹائیں"
+    add: "شامل کریں"
+    quit: "چھوڑ دیں"
+    end: "ختم"
+    a_true: "صحیح"
+    a_false: "غلط"
+    a_notGiven: "کچھ نہیں"
+    next: "اگلا"
+    confirm: "منظور"
+    start_live: "براہ راست شروع کریں"
+    select: "منتخب"
+    not_now: "شاید بعد میں  "
+    review: "رأے"
+    back: "واپس"
